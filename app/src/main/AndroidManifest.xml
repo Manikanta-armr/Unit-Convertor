@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:label="MAD Home Assignment"
+        android:theme="@style/Theme.MADHomeAssignment"
+        tools:targetApi="31" >
+        <activity
+            android:name=".FirstScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.madhomeassignment.MainActivity" android:label="Unit Convertor"/>
+        <activity android:name="com.example.madhomeassignment.Area" android:label="Area"/>
+        <activity android:name="com.example.madhomeassignment.Temparature" android:label="Tempearture"/>
+        <activity android:name="com.example.madhomeassignment.Time" android:label="Time"/>
+        <activity android:name="com.example.madhomeassignment.Volume" android:label="Volume"/>
+        <activity android:name="com.example.madhomeassignment.Weight" android:label="Weight"/>
+        <activity android:name="com.example.madhomeassignment.Current" android:label="Current"/>
+        <activity android:name="com.example.madhomeassignment.Energy" android:label="Energy"/>
+        <activity android:name="com.example.madhomeassignment.Force" android:label="Force"/>
+        <activity android:name="com.example.madhomeassignment.Frequency" android:label="Frequency"/>
+        <activity android:name="com.example.madhomeassignment.Fuel" android:label="Fuel"/>
+        <activity android:name="com.example.madhomeassignment.Length" android:label="Length"/>
+        <activity android:name="com.example.madhomeassignment.Pressure" android:label="Pressure"/>
+        <activity android:name="com.example.madhomeassignment.Resistance" android:label="Resistance"/>
+        <activity android:name="com.example.madhomeassignment.Speed" android:label="Speed"/>
+        <activity android:name="com.example.madhomeassignment.Storage" android:label="Storage"/>
+    </application>
+
+</manifest>
